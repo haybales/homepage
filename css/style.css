@@ -53,11 +53,13 @@ header {
     color: white;
     background: red; }
   header p::first-letter {
+    padding: 5px;
+    margin: 5px;
     color: black; }
   header p {
     letter-spacing: 10px;
     font-size: 3em;
-    line-height: 0.9em;
+    line-height: 1em;
     font-family: 'Inconsolata', monospace;
     margin: 0;
     padding: 0; }
