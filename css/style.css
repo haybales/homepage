@@ -24,7 +24,7 @@ body {
   -webkit-animation: fadein 0.7s;
   animation: fadein 0.7s; }
   body h1, body h2, body h3 {
-    font-family: 'Incosolidata', monospace;
+    font-family: 'Montserrat', sans-serif;
     color: black; }
   body p {
     line-height: 1.58em; }
@@ -54,12 +54,11 @@ header {
     background: red; }
   header p::first-letter {
     padding: 5px;
-    margin: 5px;
     color: black; }
   header p {
     letter-spacing: 10px;
     font-size: 3em;
-    line-height: 1em;
-    font-family: 'Inconsolata', monospace;
+    line-height: 1.2em;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0; }
