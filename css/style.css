@@ -31,10 +31,11 @@ body {
   border-bottom: 3px solid white; }
 
 .udark {
-  border-bottom: 1px solid black; }
+  border-bottom: 1px solid black;
+  width: 100%; }
 
 .spacer {
-  height: 4rem; }
+  height: 2rem; }
 
 .weird {
   width: 100%;
@@ -79,8 +80,26 @@ body {
   padding: 20px;
   border-radius: 2px 2px 0px 0px;
   box-shadow: 0px 0px 20px #000;
-  background-color: #FFFFEE;
+  background-color: #FFFFF7;
   z-index: 98; }
+
+.shallow {
+  margin-bottom: .5rem; }
+
+.deep {
+  margin-bottom: 1rem; }
+
+h5 {
+  font-size: 3rem; }
+  h5 a {
+    color: black;
+    text-decoration: none;
+    target-new: tab; }
+
+strong a {
+  color: black;
+  text-decoration: none;
+  target-new: tab; }
 
 .portfoliopage {
   display: none;
